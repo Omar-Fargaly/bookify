@@ -1,12 +1,25 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- `Account.jsx`: Displays user profile and rentals.
+- `PastRentals.jsx`: Loops through rental items, showing review options.
+- `ReviewForm.jsx`: Handles form state and submission logic.
+- `UserContext.jsx`: Stores user info, past rentals, and submitted reviews in React context for easy global access.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- React Router DOM
+- Tailwind CSS
+- React Context API
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 📌 Notes
+
+- Currently uses **mock data** for user and rental info.
+- Easily extendable to fetch real data from a backend API.
+
+---
+
+Feel free to improve visuals further by adding book cover images or a tabbed interface for profile/reviews/settings.
