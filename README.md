@@ -21,5 +21,3 @@
 - Easily extendable to fetch real data from a backend API.
 
 ---
-
-Feel free to improve visuals further by adding book cover images or a tabbed interface for profile/reviews/settings.
